@@ -1,4 +1,4 @@
-package com.in28minutes.rest.webservices.restfulwebservices.environment;
+package com.mfe.rest.webservices.restfulwebservices.environment;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

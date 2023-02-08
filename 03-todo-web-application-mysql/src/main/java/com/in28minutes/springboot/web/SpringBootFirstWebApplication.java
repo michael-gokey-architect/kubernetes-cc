@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.web;
+package com.mfe.springboot.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.in28minutes.springboot.web")
+@ComponentScan("com.mfe.springboot.web")
 public class SpringBootFirstWebApplication extends SpringBootServletInitializer {
 
 	@Override

@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.web.security;
+package com.mfe.springboot.web.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

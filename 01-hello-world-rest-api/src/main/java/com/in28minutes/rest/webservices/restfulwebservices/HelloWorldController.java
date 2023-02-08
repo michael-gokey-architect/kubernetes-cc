@@ -1,11 +1,11 @@
-package com.in28minutes.rest.webservices.restfulwebservices;
+package com.mfe.rest.webservices.restfulwebservices;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.in28minutes.rest.webservices.restfulwebservices.environment.InstanceInformationService;
+import com.mfe.rest.webservices.restfulwebservices.environment.InstanceInformationService;
 
 @RestController
 public class HelloWorldController {

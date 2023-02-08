@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.web.controller;
+package com.mfe.springboot.web.controller;
 
 import javax.servlet.http.HttpServletRequest;
 

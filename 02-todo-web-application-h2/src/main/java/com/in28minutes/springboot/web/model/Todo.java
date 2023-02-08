@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.web.model;
+package com.mfe.springboot.web.model;
 
 import java.util.Date;
 

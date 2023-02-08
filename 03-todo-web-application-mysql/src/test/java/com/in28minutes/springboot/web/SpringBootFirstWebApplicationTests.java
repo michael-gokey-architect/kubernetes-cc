@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.web;
+package com.mfe.springboot.web;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

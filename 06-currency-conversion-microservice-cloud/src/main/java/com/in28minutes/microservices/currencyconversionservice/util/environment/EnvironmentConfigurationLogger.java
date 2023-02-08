@@ -1,4 +1,4 @@
-package com.in28minutes.microservices.currencyconversionservice.util.environment;
+package com.mfe.microservices.currencyconversionservice.util.environment;
 
 import java.util.Arrays;
 import java.util.stream.StreamSupport;

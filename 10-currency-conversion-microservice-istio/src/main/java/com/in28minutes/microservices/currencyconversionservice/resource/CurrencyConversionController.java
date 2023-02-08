@@ -1,4 +1,4 @@
-package com.in28minutes.microservices.currencyconversionservice.resource;
+package com.mfe.microservices.currencyconversionservice.resource;
 
 import java.math.BigDecimal;
 
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import com.in28minutes.microservices.currencyconversionservice.util.environment.InstanceInformationService;
+import com.mfe.microservices.currencyconversionservice.util.environment.InstanceInformationService;
 
 @RestController
 public class CurrencyConversionController {

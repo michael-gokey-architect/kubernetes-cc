@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.web;
+package com.mfe.springboot.web;
 
 import java.util.Arrays;
 import java.util.stream.StreamSupport;
