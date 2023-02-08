@@ -1,20 +1,10 @@
-# Kubernetes Crash Course for Java Developers on Google Cloud
-
-[![Image](https://www.springboottutorial.com/images/Course-KubernetesCrashCourse.png "Kubernetes Crash Course for Java Spring Boot Developers")](https://www.udemy.com/course/kubernetes-crash-course-for-java-developers/)
+# Kubernetes CC for Java Developers on Google Cloud
 
 
 ## Learn Kubernetes and Docker with Google Kubernetes Engine deploying Spring Boot Microservices
 
-Learn Kubernetes? Yes.   Learn Docker, Istio and Helm? Yes.
+Learn Kubernetes? Yes.   
 Deploy Spring Boot and Spring Cloud Microservices to Kubernetes? Yes. Of Course.
-
-Do you have ZERO experience with Docker and Kubernetes? No Problem.
-
-Do you want to learn Kubernetes and deploy Spring Boot Microservices to Kubernetes with an easy to learn, step by step approach?
-
-Do you want to join 300,000+ learners having Amazing Learning Experiences with in28Minutes?
-
-Look No Further!
 
 ## First Commands
 
@@ -115,7 +105,7 @@ You will be using containerizing (using Docker) and deploying a variety of proje
 - You will integrate Kiali, Graphana and Prometheus with Istio and Kubernetes
 - You will implement Distributed Tracing for Spring Boot Microsevices with Istio and Jaegar
 - You will use Helm to Automate Microservices Deployment on Kubernetes
-- You will Join 300,000 Learners having AMAZING LEARNING Experiences with in28Minutes
+- 
 
 ## Requirements
 - You have an attitude to learn while having fun :)
@@ -210,34 +200,8 @@ You will be using containerizing (using Docker) and deploying a variety of proje
 - 07 Step 06 - Implementing Horizontal Pod Autoscaling with Kubernetes
 - 07 Step 07 - Deleting Your Kubernetes Cluster
 
-### Integrating Spring Boot Microservices on Kubernetes with Google Stackdriver
-- 08 Step 01 - Creating New Cluster to Play With Google Stackdriver
-- 08 Step 02 - Review Spring Boot Microservices integrated with Google Stackdriver
-- 08 Step 03 - Enabling Stackdriver APIs for Your Google Cloud Account
-- 08 Step 04 - Deploy Spring Boot Microservices and Explore Google Stackdriver Tracing
-- 08 Step 05 - Exploring Google Stackdriver Error Reporting and Logging
 
-### Integrating Spring Boot Microservices on Kubernetes with Istio
-- 09 Step 01 - Creating new Kubernetes Cluster for Playing with Istio
-- 09 Step 02 - Understanding Service Mesh, Istio and Sidecar Pattern
-- 09 Step 03 - Installing Istio on Kubernetes Cluster - CRD and Istio Components
-- 09 Step 04 - Review Istio Installation and Deploy Spring Boot App with Side Cars
-- 09 Step 05 - Increasing Kubernetes Cluster Size to 3 Nodes
-- 09 Step 06 - Understanding Gateways and Virtual Services for Istio
-- 09 Step 07 - Basic Deployment Strategies - Rolling Updates and Recreate
-- 09 Step 08 - Setting up Multiple Versions of Spring Boot Applications
-- 09 Step 09 - Configure Destination Rules and Subsets to implement Mirroring
-- 09 Step 10 - Executing Blue Green and Canary Deployments with Kubernetes
-- 09 Step 11 - Review Spring Boot Microservices integration with Istio
-- 09 Step 12 - Observing Istio Service Mesh with Kiali
-- 09 Step 13 - Monitoring Istio Service Mesh with Graphana and Prometheus
-- 09 Step 14 - Distribute Tracing for Spring Boot Microsevices with Istio and Jaegar
-- 09 Step 15 - Delete Kubernetes Cluster for Playing with Istio
 
-### Using Helm to Automate Microservices Deployment on Kubernetes
-- 10 Step 01 - Understanding Helm Basics and Setting up Kubernetes Cluster
-- 10 Step 02 - Using Helm Charts to deploy Spring Boot Microservice to Kubernetes
-- 10 Step 03 - Using Helm Charts to manage Releases to Kubernetes Cluster
 
 ### Appendix - Introduction to Docker in 9 Steps
 - 11 Step 01 - Installing Docker - Docker
@@ -250,49 +214,6 @@ You will be using containerizing (using Docker) and deploying a variety of proje
 - 11 Step 08 - Playing with Docker Containers
 - 11 Step 09 - Playing with Docker Commands - stats, system
 
-### Kubernetes on AWS with EKS
-- 12 Step 01 - Kubernetes on AWS with EKS - Section Introduction
-- 12 Step 02 - Creating an AWS Root Account
-- 12 Step 03 - Creating an IAM User for your AWS Account
-- 12 Step 04 - Its Your Responsibility to Monitor Billing on the Cloud - 5 Recommendations
-- 12 Step 05 - Monitor AWS Billing - Setting Billing Alerts
-- 12 Step 06 - Installing AWS CLI
-- 12 Step 07 - Install EKS CTL and Configure AWS CLI with IAM User
-- 12 Step 08 - Create a Kubernetes Cluster on AWS with EKS
-- 12 Step 09 - Quick Review of AWS Basics - Region, AZ, VPC and Subnet
-- 12 Step 10 - Quick Review of the AWS EKS Kubernetes Cluster
-- 12 Step 11 - Review Hello World and Web Apps from GKE Section
-- 12 Step 12 - Deploy Hello World Rest Api to AWS EKS Kubernetes Cluster
-- 12 Step 13 - Deploy Web App H2 to AWS EKS Kubernetes Cluster
-- 12 Step 14 - Deploy Web App with MySQL to AWS EKS Kubernetes Cluster
-- 12 Step 15 - Delete Web App and Hello World Deployments
-- 12 Step 16 - Review of Microservices on GKE
-- 12 Step 17 - Deploy Microservices to AWS EKS Kubernetes Cluster
-- 12 Step 18 - Setup Ingress Controller and Ingress
-- 12 Step 19 - Quick Review of Ingress
-- 12 Step 20 - Setup Container Insights and AWS Cloud Watch Logs
-- 12 Step 21 - Setup Cluster Autoscaling on AWS EKS Kubernetes Cluster
-- 12 Step 22 - Delete AWS EKS Kubernetes Cluster
-
-### Kubernetes on Azure with AKS
-- 13 Step 01 - Kubernetes on Azure with AKS - Section Introduction
-- 13 Step 02 - Creating an Azure Account
-- 13 Step 03 - Create a Resource Group, Service Principal and AKS Kubernetes Cluster
-- 13 Step 04 - Deploy Hello World Rest Api to Azure AKS Kubernetes Cluster
-- 13 Step 05 - Deploy Web App H2 to Azure AKS Kubernetes Cluster
-- 13 Step 06 - Deploy Web App with MySQL to Azure AKS Kubernetes Cluster
-- 13 Step 07 - Delete Deployments and Review of Microservices on GKE
-- 13 Step 08 - Deploy Microservices to Azure AKS Kubernetes Cluster
-- 13 Step 09 - Review Dev Spaces, Insights and Logs in Azure AKS Kubernetes Cluster
-- 13 Step 10 - Setup Ingress Controller and Ingress
-- 13 Step 11 - Review Cluster Autoscaling on Azure AKS Kubernetes Cluster
-- 13 Step 12 - Delete Azure AKS Kubernetes Cluster
-
-```sh
-for file in *; do mv "${file}" "${file//-/ }"; done
-for file in *; do mv "${file}" "${file//   / - }"; done
-for file in *; do mv "${file}" "${file//01 Step/Step}"; done
-```
 
 ### Commands Executed during the course
 
@@ -1073,46 +994,3 @@ HostOS -- CloudInfrastructure [style=invis]
 }
 ```
 
-
-## Next Steps
-
-## Todo
----
-- Go Declarative - Go YAML
-- Use Helm
-- Stay Cloud Neutral
-> Kubernetes Best Pracises
----
-- Naming Server
-- Load Balancing
-- Distributed Tracing 
-
-> Spring Cloud - A Couple Of Years Ago
----
-- spring-cloud-starter-kubernetes
-- spring-cloud-gcp-starter-trace
-- spring-cloud-gcp-starter-logging
-
-> Spring Cloud - In the Cloud World
----
-Update the step referring to Docker to refer to Appendix Section on Docker.
----
-Google Console Keyboard Shortcuts
----
-Debugging Problems in K8s
----
-Billing
----
-NodePort Example
----
-
-### Troubleshooting
-- Refer our TroubleShooting Guide - https://github.com/in28minutes/in28minutes-initiatives/tree/master/The-in28Minutes-TroubleshootingGuide-And-FAQ
-
-## Youtube Playlists - 500+ Videos
-
-[Click here - 30+ Playlists with 500+ Videos on Spring, Spring Boot, REST, Microservices and the Cloud](https://www.youtube.com/user/rithustutorials/playlists?view=1&sort=lad&flow=list)
-
-## Keep Learning in28Minutes
-
-in28Minutes is creating amazing solutions for you to learn Spring Boot, Full Stack and the Cloud - Docker, Kubernetes, AWS, React, Angular etc. - [Check out all our courses here](https://github.com/in28minutes/learn)
